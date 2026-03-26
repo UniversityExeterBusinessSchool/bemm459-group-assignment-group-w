@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "69c57162754aaeed4ab9060b"
+  },
+  "user_id": 2,
+  "name": "Sarah Smith",
+  "watch_history": [
+    {
+      "content_id": 103,
+      "title": "Money Heist",
+      "watch_date": "2026-01-11",
+      "device": "Tablet",
+      "duration_minutes": 110
+    },
+    {
+      "content_id": 101,
+      "title": "Breaking Bad",
+      "watch_date": "2026-01-13",
+      "device": "Smart TV",
+      "duration_minutes": 95
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69c59eba754aaeed4ab90613"
+  },
+  "user_id": 1,
+  "name": "John Doe",
+  "watch_history": [
+    {
+      "content_id": 101,
+      "title": "Breaking Bad",
+      "watch_date": "2026-01-10",
+      "device": "Laptop",
+      "duration_minutes": 120
+    },
+    {
+      "content_id": 102,
+      "title": "Stranger Things",
+      "watch_date": "2026-01-12",
+      "device": "Mobile",
+      "duration_minutes": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69c59ed6754aaeed4ab90615"
+  },
+  "user_id": 2,
+  "name": "Sarah Smith",
+  "watch_history": [
+    {
+      "content_id": 103,
+      "title": "Money Heist",
+      "watch_date": "2026-01-11",
+      "device": "Tablet",
+      "duration_minutes": 110
+    },
+    {
+      "content_id": 101,
+      "title": "Breaking Bad",
+      "watch_date": "2026-01-13",
+      "device": "Smart TV",
+      "duration_minutes": 95
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69c59eee754aaeed4ab90617"
+  },
+  "user_id": 3,
+  "name": "Ali Khan",
+  "watch_history": [
+    {
+      "content_id": 102,
+      "title": "Stranger Things",
+      "watch_date": "2026-01-14",
+      "device": "Laptop",
+      "duration_minutes": 80
+    }
+  ]
+}]
