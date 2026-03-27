@@ -82,4 +82,36 @@
       "duration_minutes": 80
     }
   ]
+}
+{
+  "_id": {
+    "$oid": "69c59eee754aaeed4ab90699"
+  },
+  "user_id": 7,
+  "name": "Shivani Sharma",
+  "watch_history": [
+    {
+      "content_id": 215,
+      "title": "Money Heist",
+      "watch_date": "2026-02-10",
+      "device": "Mobile",
+      "duration_minutes": 95
+    }
+  ]
+}
+{
+  "_id": {
+    "$oid": "69c59eee754aaeed4ab90755"
+  },
+  "user_id": 12,
+  "name": "Arjun Mehta",
+  "watch_history": [
+    {
+      "content_id": 309,
+      "title": "Breaking Bad",
+      "watch_date": "2026-03-05",
+      "device": "Tablet",
+      "duration_minutes": 60
+    }
+  ]
 }]
