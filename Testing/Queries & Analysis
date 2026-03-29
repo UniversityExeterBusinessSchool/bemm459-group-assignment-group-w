@@ -1,0 +1,30 @@
+SELECT 
+    Users_A.FullName,
+    Content_A.Title,
+    WatchHistory_A.WatchDate
+FROM WatchHistory_A
+JOIN Users_A ON WatchHistory_A.UserID = Users_A.UserID
+JOIN Content_A ON WatchHistory_A.ContentID = Content_A.ContentID;
+
+SELECT 
+    Content_A.Title,
+    COUNT(WatchHistory_A.WatchID) AS WatchCount
+FROM WatchHistory_A
+JOIN Content_A ON WatchHistory_A.ContentID = Content_A.ContentID
+GROUP BY Content_A.Title;
+
+SELECT 
+    Users_A.FullName,
+    Subscriptions_A.PlanType,
+    Subscriptions_A.Price
+FROM Subscriptions_A
+JOIN Users_A ON Subscriptions_A.UserID = Users_A.UserID
+WHERE Subscriptions_A.PlanType = 'Premium';
+
+SELECT 
+    Users_A.FullName,
+    COUNT(WatchHistory_A.WatchID) AS TotalWatched
+FROM WatchHistory_A
+JOIN Users_A ON WatchHistory_A.UserID = Users_A.WatchID
+GROUP BY Users_A.FullName
+ORDER BY TotalWatched DESC;
